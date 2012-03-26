@@ -1,0 +1,17 @@
+Assumptions.pm is a minimalist perl MVC framework based on DBI, DBIx::Abstract, CGI::Session and the Template Toolkit.
+
+Documentation is somewhat sparse. Read the source.
+
+I've used Assumptions on a number of projects
+
+moon.classy.dk - Apollo 11 radio transcript reeneactment          (not currently running)
+spotifydj.com -  The world's first Spotify internet DJing service (no longer operational)
+classy.dk/jazz/setup.html - a calendar/Last.fm API-mashup generator		  (go have a look)
+
+HOWTO
+
+Follow the lead from the included test project.
+1. Implement a module that inherits from Assumptions and implements a configure method (see ATest.pm)
+2. Include this in a cgi script (see test.pl)
+3. Use the included .htaccess as a template for your own .htaccess to activate the toolkit for your site
+
